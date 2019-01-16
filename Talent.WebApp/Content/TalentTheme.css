@@ -1,0 +1,360 @@
+﻿.text.center {
+    text-align: center
+}
+
+.header-background-color {
+    height: 350px;
+    background-color: black;
+}
+
+.header-text {
+    padding-top: 50px;
+}
+
+.vision {
+    background: #353537;
+    color: #fff;
+    padding: 80px 0;
+}
+
+    .vision h3 {
+        font-size: 30px;
+    }
+
+    .vision .grid {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+.mainpage-heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.mainpage-paragraph {
+    font-size: 18px;
+    text-align: center;
+}
+
+.row-padded {
+    padding: 2% 0%;
+}
+
+.explore p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 0;
+    display: block;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: center;
+}
+
+    .explore p:hover {
+        opacity: 1;
+    }
+
+.explore-category h3 {
+    color: #0e0e0f;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+    .explore-category h3::before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 0;
+        margin: 5px auto 10px;
+        border-top: 1px solid #3f51b5;
+    }
+
+.explore-category .column {
+    text-align: center;
+}
+
+.category-section {
+    background-color: #fafafa;
+    border-top: 1px solid #e5e5e5;
+}
+
+    .category-section nav a {
+        display: block;
+        font-size: 15px;
+        line-height: 130%;
+        padding: 7px 0;
+    }
+
+    .category-section a {
+        color: #777777;
+    }
+
+.card.noboxshadow {
+    box-shadow: none !important;
+}
+
+.first-section {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    top: 0;
+    position: relative;
+    /*background: linear-gradient(to right, #5c8a8a, #1f2e2e);*/
+    background-image: url("/images/background-img.png");
+    background-size: cover;
+    text-align: center
+}
+
+.tagline-holder {
+    padding-top: 140px;
+}
+
+    .tagline-holder h1 {
+        font-weight: 600;
+        font-size: 54px;
+        color: #000;
+        line-height: 110%;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        letter-spacing: -.3px;
+        text-transform: capitalize !important;
+    }
+
+    .tagline-holder > p {
+        font-weight: 50;
+        font-size: 18px;
+        color: #000;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+.main-search {
+    margin-top: 50px;
+}
+
+    .main-search > div > input {
+        color: #585858;
+        width: 400px;
+        border-radius: 0 !important;
+    }
+
+#banner-header .ui.secondary.inverted.menu {
+    margin: 0
+}
+
+.nav-secondary {
+    margin-bottom:2%
+}
+/* Tiny Modal Width */
+@media only screen and (max-width: 767px) {
+    .ui.tiny.modal {
+        width: 95%;
+        margin: 0em 0em 0em -47.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ui.tiny.modal {
+        width: 50%;
+        margin: 0em 0em 0em -25%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .ui.tiny.modal {
+        width: 300px;
+        margin: 0em 0em 0em -150px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .ui.tiny.modal {
+        width: 400px;
+        margin: 0em 0em 0em -200px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .ui.tiny.modal {
+        width: 400px;
+        margin: 0em 0em 0em -200px;
+    }
+}
+
+.ui.grid.explore-category img {
+    width: 55px;
+}
+
+/* Seller profile form - START */
+.profile {
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.listing .tooltip, .profile .tooltip {
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    color: #b2b2b2;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 40px 0 0;
+}
+
+.listing .tooltip:hover, .profile .tooltip:hover {
+    opacity: 1;
+}
+
+.profile .social-media {
+    width: 100%;
+    max-width: 200px;
+}
+
+.form-wrapper {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    margin-bottom: 18px;
+}
+
+#generalModal .ui.button {
+    height: 43px;
+    padding: 13px;
+}
+
+#generalModal input {
+    border: 1px solid #aaa;
+    color: #484848;
+}
+
+.main-search button {
+    border-radius: 0
+}
+
+.explore-category img {
+    width: 50px;
+}
+/* User profile form - END */
+/*Form style*/
+.form-footer {
+    margin-top: 15px
+}
+
+    .form-footer span a {
+        cursor: pointer
+    }
+
+.suggestions .ui.image img {
+    height: 155px;
+}
+
+.guidelines .ui.card .ui.image img {
+    height: 273px;
+}
+
+.ui.teal.big.button {
+    font-weight: 400
+}
+
+.ui.teal.buttons .button, .ui.teal.button {
+    background-color: #3B5998;
+    color: #FFFFFF;
+    text-shadow: none;
+    background-image: none;
+}
+
+    .ui.teal.button:hover {
+        background-color: #304d8a;
+        color: #FFFFFF;
+        text-shadow: none;
+    }
+
+.ui.basic.green.button {
+    box-shadow: 0px 0px 0px 1px #000 inset !important;
+    color: #000 !important;
+}
+
+    .ui.basic.green.button:hover {
+        background: #3f51b5 !important;
+        box-shadow: 0px 0px 0px 1px #3B5998 inset !important;
+        color: #fff !important;
+    }
+
+.ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
+    color: #000 !important;
+}
+
+#banner-header .ui.menu {
+    margin: 0
+}
+
+.ui.secondary.inverted.menu a.item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #3f51b5 !important;
+}
+
+.search-box input {
+    height: 35px;
+    margin: 15px !important;
+    min-width: 250px;
+}
+
+.search-box i {
+    right: 15px !important
+}
+
+.ui.menu {
+    box-shadow: none !important
+}
+
+i.circular.icon {
+    box-shadow: 0em 0em 0em 0.02em rgb(33, 33, 33) inset !important;
+}
+
+/* Search results page */
+.search-results .ui.card .ui.image img {
+    height: 155px;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    .search-results ul li a {
+        color: #777777;
+    }
+
+    .search-results ul li span.rf {
+        float: right;
+        color: #c6c6c6;
+    }
+
+    .search-results ul.filter-results li.subcategories {
+        text-indent: 20px;
+    }
+
+/* Service details page */
+.service-details img {
+    max-height: 450px;
+}
+
+.text-color {
+    color: #3B5998;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.service-details .service-description {
+    background-color: #f7f7f7 !important;
+}
+.service-details .user-info, .service-details .order-detail {
+    text-align: center
+}
+
+table .icon{
+    cursor: pointer;
+}

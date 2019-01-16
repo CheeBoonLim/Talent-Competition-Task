@@ -1,0 +1,282 @@
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.csprojResolveAssemblyReference.cache
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.Content.Resources.ValidationMessages.resources
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.Content.Resources.ViewModelLabels.resources
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.csproj.GenerateResource.Cache
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\ApplicationInsights.config
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\csc.exe
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\vbc.exe
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.WebApp.dll.config
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.WebApp.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.WebApp.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\AjaxMin.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Cassette.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Cassette.Views.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Cassette.Web.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\ClearScript.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\EntityFramework.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Google.Authenticator.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\IronRuby.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\IronRuby.Libraries.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\IronRuby.Libraries.Yaml.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Msie.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.V8.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JSPool.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Jurassic.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\log4net.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.Web.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Dynamic.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Scripting.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Scripting.Metadata.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\MsieJavaScriptEngine.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Ninject.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Ninject.Web.Common.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Ninject.Web.Mvc.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Omu.ValueInjecter.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Owin.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Pandora.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\React.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\React.Web.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\React.Web.Mvc4.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\SassAndCoffee.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\SassAndCoffee.Ruby.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Helpers.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Mvc.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Optimization.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Razor.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Data.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Diagnostics.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Service.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\VroomJs.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\WebActivator.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\WebActivatorEx.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\WebGrease.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Core.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Data.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Data.dll.config
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Diagnostics.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Service.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Talent.Service.dll.config
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\AjaxMin.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\EntityFramework.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Core.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Msie.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.V8.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\JSPool.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\log4net.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.Web.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\MsieJavaScriptEngine.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Ninject.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Ninject.Web.Common.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Ninject.Web.Mvc.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Omu.ValueInjecter.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Omu.ValueInjecter.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\React.Core.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\React.Web.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\React.Web.Mvc4.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Helpers.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Mvc.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Optimization.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.Razor.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\VroomJs.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\ApplicationInsights.config
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\csc.exe
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\vbc.exe
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Project\Talent Competition\Talent.WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.WebApp.dll.config
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.WebApp.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.WebApp.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\AjaxMin.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Antlr3.Runtime.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Cassette.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Cassette.Views.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Cassette.Web.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\ClearScript.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\EntityFramework.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\EntityFramework.SqlServer.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Google.Authenticator.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\IronRuby.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\IronRuby.Libraries.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\IronRuby.Libraries.Yaml.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Core.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Msie.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.V8.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\JSPool.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Jurassic.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\log4net.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.Web.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Dynamic.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Security.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Scripting.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Scripting.Metadata.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\MsieJavaScriptEngine.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Newtonsoft.Json.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Ninject.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Ninject.Web.Common.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Ninject.Web.Mvc.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Omu.ValueInjecter.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Owin.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Pandora.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\React.Core.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\React.Web.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\React.Web.Mvc4.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\SassAndCoffee.Core.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\SassAndCoffee.Ruby.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Helpers.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Mvc.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Optimization.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Razor.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Core.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Data.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Diagnostics.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Service.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\VroomJs.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\WebActivator.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\WebActivatorEx.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\WebGrease.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Core.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Data.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Data.dll.config
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Diagnostics.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Service.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\Talent.Service.dll.config
+C:\Project\Talent Competition\Talent.WebApp\bin\AjaxMin.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\EntityFramework.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\EntityFramework.SqlServer.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Core.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.Msie.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\JavaScriptEngineSwitcher.V8.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\JSPool.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\log4net.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.Web.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Owin.Security.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\MsieJavaScriptEngine.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Newtonsoft.Json.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Ninject.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Ninject.Web.Common.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Ninject.Web.Mvc.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Omu.ValueInjecter.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\Omu.ValueInjecter.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\React.Core.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\React.Web.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\React.Web.Mvc4.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Helpers.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Mvc.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Optimization.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.Razor.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\VroomJs.xml
+C:\Project\Talent Competition\Talent.WebApp\bin\Antlr3.Runtime.pdb
+C:\Project\Talent Competition\Talent.WebApp\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+C:\Project\Talent Competition\Talent.WebApp\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.csprojResolveAssemblyReference.cache
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.Content.Resources.ValidationMessages.resources
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.Content.Resources.ViewModelLabels.resources
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.csproj.GenerateResource.Cache
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.csproj.CoreCompileInputs.cache
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.dll
+C:\Project\Talent Competition\Talent.WebApp\obj\Debug\Talent.WebApp.pdb

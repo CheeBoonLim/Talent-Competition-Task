@@ -1,0 +1,6 @@
+C:\Mars Competition\Mars.Core\bin\Debug\Mars.Core.dll
+C:\Mars Competition\Mars.Core\bin\Debug\Mars.Core.pdb
+C:\Mars Competition\Mars.Core\obj\Debug\Mars.Core.csprojResolveAssemblyReference.cache
+C:\Mars Competition\Mars.Core\obj\Debug\Mars.Core.csproj.CoreCompileInputs.cache
+C:\Mars Competition\Mars.Core\obj\Debug\Mars.Core.dll
+C:\Mars Competition\Mars.Core\obj\Debug\Mars.Core.pdb

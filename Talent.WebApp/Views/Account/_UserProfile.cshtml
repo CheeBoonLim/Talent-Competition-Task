@@ -1,0 +1,174 @@
+﻿
+@{
+    var fieldReadonly = ViewBag.IsAdmin ? string.Empty : "readonly";
+
+    string flatNUmber, street, city, state, postCode, country, adminNote;
+    flatNUmber = street = city = state = postCode = country = adminNote = string.Empty;
+
+    if (Model != null & Model.UserAddress != null)
+    {
+        flatNUmber = Model.UserAddress.FlatNumber;
+        street = Model.UserAddress.Street;
+        city = Model.UserAddress.City;
+        state = Model.UserAddress.StateName;
+        postCode = Model.UserAddress.PostCode;
+        country = Model.UserAddress.CountryName;
+        adminNote = Model.UserAddress.AdminNote;
+    }
+}
+<div class="ui grid">
+
+    <div class="ui stackable sixteen column row">
+        <div class="column">
+            <div class="ui card ">
+                <div class="image">
+                    <img src="https://semantic-ui.com/images/avatar2/large/matthew.png">
+                </div>
+            </div>
+        </div>
+        <div class="six wide column">
+            <div class="ui form">
+                <div class="two fields">
+                    <div class="field">
+                        <label>UID</label>
+                        <div>@Model.Id</div>
+                    </div>
+                    <div class="field">
+                        <label>Login</label>
+                        <div>@Model.Username</div>
+                    </div>
+                </div>
+            </div>
+            @*<div class="ui divider"></div>*@
+        </div>
+    </div>
+
+    <div class="ui stackable sixteen column row" id="skin-profile-header">
+        <div class="sixteen wide column">
+            <div class="field">
+                <h2 class="header">Verified Profile Details</h2>
+            </div>
+            <div class="field">
+                <div class="ui divider"></div>
+                @Html.ValidationSummary(true)
+                <div class="skin-update-profile-status">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui stackable sixteen column row">
+
+        <div class="six wide column">
+            <div class="field">
+                <label for="phone">Country Code</label>
+                <div class="ui right labeled input">
+                    <select name="CountryDialCode" id="countryCode">
+                        <option data-countryCode="NZ" value="NZ-64">New Zealand (+64)</option>
+                        <optgroup label="Other countries">
+                            <option data-countryCode="AU" value="AU-61">Australia (+61)</option>
+                            <option data-countryCode="NZ" value="NZ-64">New Zealand (+64)</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="Mobile">
+                    Mobile
+                    @if (Model.IsVerifyMobile)
+                    {
+                        <i class="red large checkmark icon"></i>
+                        <span class="skin-verified-msg">Verified</span>
+                    }
+                </label>
+                <input placeholder="Mobile" name="Mobile" type="text" value="@Model.Mobile" @fieldReadonly id="Mobile">
+            </div>
+            @if (!ViewBag.IsAdmin && !Model.IsVerifyMobile)
+            {
+                <p class="skin-sms-verify-msg"></p>
+
+                <div class="field" id="skin-send-sms-div">
+                    <label>To verify mobile number, please click the "Send SMS Code" button</label>
+                    <button class="ui tiny primary button" id="skin-send-sms-code-btn">Send SMS Code</button>
+                </div>
+
+                <div id="skin-verify-sms-div">
+                    <div class="field">
+                        <input placeholder="SMS Verification Code" name="MobileCode" type="text" id="MobileCode">
+                    </div>
+                    <div class="field">
+                        <button class="ui tiny primary button" id="skin-verify-sms-btn">Verify SMS</button>
+                    </div>
+                </div>
+            }
+            @*<div class="ui divider"></div>*@
+
+            <div class="field">
+                <label for="FirstName">First Name</label>
+                <input placeholder="First Name" name="FirstName" type="text" value="@Model.FirstName" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="MiddleName">Middle Name</label>
+                <input placeholder="Middle Name" name="MiddleName" type="text" value="@Model.MiddleName" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="LastName">Last Name</label>
+                <input placeholder="Last Name" name="LastName" type="text" value="@Model.LastName" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="DOB">Date of Birth</label>
+                <input placeholder="dd/mm/yyyy" name="DOB" type="text" value="@Model.DateOfBirth" @fieldReadonly>
+            </div>
+
+
+            @if (ViewBag.IsAdmin)
+            {
+                <div class="field">
+                    <label for="AdminNote">Admin Notes</label>
+                    ​<textarea name="AdminNote" id="AdminNote" rows="5" cols="70">@adminNote </textarea>
+                </div>
+            }
+        </div>
+
+        <div class="six wide column">
+            <div class="field" id="locationField">
+                <label for="Address">Address</label>
+                <input placeholder="Please type your address" name="Address" type="text" id="autocomplete" onFocus="geolocate()" @fieldReadonly>
+            </div>
+
+            <div class="field">
+                <label for="Flat">Flat #</label>
+                <input placeholder="Flat #" name="FlatNumber" type="text" id="street_number" value="@flatNUmber" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="Street">Street</label>
+                <input placeholder="Street" name="Street" type="text" id="route" value="@street" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="City">City</label>
+                <input placeholder="City" name="City" type="text" id="locality" value="@city" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="State">State</label>
+                <input placeholder="State" name="State" type="text" id="administrative_area_level_1" value="@state" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="PostCode">Post Code</label>
+                <input placeholder="Post Code" name="PostCode" type="text" id="postal_code" value="@postCode" @fieldReadonly>
+            </div>
+            <div class="field">
+                <label for="Country">Country</label>
+                <input placeholder="Country" name="Country" type="text" id="country" value="@country" @fieldReadonly>
+            </div>
+            @if (ViewBag.IsAdmin)
+            {
+                <div class="field">
+                    <button class="ui primary button" id="save-profile-btn">Save Profile</button>
+                </div>
+            }
+        </div>
+
+    </div>
+
+</div>
+

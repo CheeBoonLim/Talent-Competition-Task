@@ -1,0 +1,10 @@
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Core\bin\Debug\Talent.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Core\bin\Debug\Talent.Core.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Core\obj\Debug\Talent.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Core\obj\Debug\Talent.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Core\obj\Debug\Talent.Core.pdb
+C:\Project\Talent Competition\Talent.Core\bin\Debug\Talent.Core.dll
+C:\Project\Talent Competition\Talent.Core\bin\Debug\Talent.Core.pdb
+C:\Project\Talent Competition\Talent.Core\obj\Debug\Talent.Core.csproj.CoreCompileInputs.cache
+C:\Project\Talent Competition\Talent.Core\obj\Debug\Talent.Core.dll
+C:\Project\Talent Competition\Talent.Core\obj\Debug\Talent.Core.pdb

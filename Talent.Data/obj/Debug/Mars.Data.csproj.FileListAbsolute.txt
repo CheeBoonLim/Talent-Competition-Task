@@ -1,0 +1,11 @@
+C:\Mars Competition\Mars.Data\bin\Debug\Mars.Data.dll.config
+C:\Mars Competition\Mars.Data\bin\Debug\Mars.Data.dll
+C:\Mars Competition\Mars.Data\bin\Debug\Mars.Data.pdb
+C:\Mars Competition\Mars.Data\bin\Debug\EntityFramework.dll
+C:\Mars Competition\Mars.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Mars Competition\Mars.Data\bin\Debug\EntityFramework.xml
+C:\Mars Competition\Mars.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mars Competition\Mars.Data\obj\Debug\Mars.Data.csprojResolveAssemblyReference.cache
+C:\Mars Competition\Mars.Data\obj\Debug\Mars.Data.csproj.CoreCompileInputs.cache
+C:\Mars Competition\Mars.Data\obj\Debug\Mars.Data.dll
+C:\Mars Competition\Mars.Data\obj\Debug\Mars.Data.pdb

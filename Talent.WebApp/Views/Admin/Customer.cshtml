@@ -1,0 +1,53 @@
+﻿@model List<Skin.WebApp.Models.Admin.CustomerModel>
+@{
+    ViewBag.Title = "Users";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="ui container cat-body-minheight">
+    <table class="ui celled table skin-customer-table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Created On</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Mobile</td>
+                    <td>@item.Email</td>
+                    <td>
+                        <div>@item.CreatedOnHowLongAgo</div>
+                        <div>@item.CreatedOn</div>
+                    </td>
+                    <td>
+                        <div class="ui buttons">
+                            <a class="ui button" href="/Account/UserProfile/@item.Id">View Profile</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@section scripts
+{
+    
+    <script>
+        $(document).ready(function () {
+
+            var table = $('.skin-customer-table').DataTable({ "order": [[0, "desc"]] });
+
+        });
+    </script>
+}

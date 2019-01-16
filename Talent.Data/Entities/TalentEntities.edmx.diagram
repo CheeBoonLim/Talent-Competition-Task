@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a2f57421222a4c0a826182b16bd5a8eb" Name="Diagram1">
+        <EntityTypeShape EntityType="TalentModel.AddressLocation" Width="1.5" PointX="6" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.AvailableDay" Width="1.5" PointX="10.5" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.AvailableDays_2" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.Country" Width="1.5" PointX="6" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.Gender" Width="1.5" PointX="0.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.Log" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.LogEntry" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.Login" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.Person" Width="1.5" PointX="3" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonAddress" Width="1.5" PointX="8.25" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonAvailability" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonContact" Width="1.5" PointX="5.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonDescription" Width="1.5" PointX="5.25" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonDocument" Width="1.5" PointX="5.25" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonEducation" Width="1.5" PointX="5.25" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonLanguage" Width="1.5" PointX="5.25" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonPhoto" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonService" Width="1.5" PointX="8.25" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonServiceTag" Width="1.5" PointX="10.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonSkill" Width="1.5" PointX="5.25" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.PersonSkillListing" Width="1.5" PointX="5.25" PointY="48.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.Role" Width="1.5" PointX="7.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.ServiceCategory" Width="1.5" PointX="6" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.SkillTag" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.State" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TalentModel.sysdiagram" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="TalentModel.FK_Address_LoMarsion" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_AvailableDays_PersonService1" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_Address_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_State_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_Person_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_Login_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK__PersonAva__Perso__59C55456" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_Address_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonContact_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonDescription_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonDocument_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonEducation_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonLanguage_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonService_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonSkill_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonSkillListing_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_Address_State" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_PersonServiceTag_PersonService" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.FK_Service_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="TalentModel.LoginRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

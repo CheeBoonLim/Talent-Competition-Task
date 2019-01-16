@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @Html.Partial("_Head")
+    @RenderSection("styles", required: false)
+
+</head>
+<body class="noscroll" style="padding-top:0;padding-bottom:20px">
+    <div>
+        <div class="ui secondary menu">
+            <a class="item" href="/">Mars Logo</a>
+            <div class="ui small icon input search-box">
+                <input type="text" placeholder="Search skills">
+                <i class="search icon"></i>
+            </div>
+            <div class="right item">
+                <a class="item">Share Your Skills</a>
+                <a class="item">Notification</a>
+                <a class="item">Log Out</a>
+            </div>
+        </div>
+    </div>
+
+    @RenderSection("masthead", required: false)
+    @RenderBody()
+
+    @Html.Partial("_Footer")
+
+    @Bundles.RenderScripts()
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

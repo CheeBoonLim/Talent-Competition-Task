@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @Html.Partial("_Head")
+    @RenderSection("styles", required: false)
+
+</head>
+<body class="noscroll" style="padding-top:0;padding-bottom:20px">
+    @RenderSection("masthead", required: false)
+    @*<div>
+        <div class="ui secondary menu">
+            <a class="item" href="/">Mars Logo</a>
+            <div class="ui small icon input search-box">
+                <input type="text" placeholder="Search skills">
+                <i class="search icon"></i>
+            </div>
+            <div class="right item">
+                <a class="item">Share Your Skills</a>
+                <a class="item">Notification</a>
+                <a class="item">Log Out</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui">
+        <section class="nav-secondary">
+            <div class="ui eight item menu">
+                <a class="item" href="/Account/Profile">Dashboard</a>
+                <a class="item" href="/Home/About">Profile</a>
+                <div class="ui dropdown link item">
+                    Sharing
+                    <div class="menu">
+                        <a class="item">My Shares</a>
+                        <a class="item">My Offers</a>
+                        <a class="item">Sent Offers</a>
+                    </div>
+                </div>
+                <div class="right item">
+                    <button class="ui basic green button">Start Sharing</button>
+                </div>
+            </div>
+        </section>
+        <section class="page-body">
+            <div class="ui container">
+                @RenderBody()
+            </div>
+        </section>
+    </div>*@
+    @RenderBody()
+    <div class="ui hidden divider"></div>
+
+    @Html.Partial("_Footer")
+
+    @Bundles.RenderScripts()
+    @*<script>
+        <script src="~/Scripts/react/react.min.js"></script>
+                $(document).ready(function () {
+                    //    $('.ui.sidebar').sidebar('attach events', '.toc.item');
+                    //    $('.ui.dropdown').dropdown();
+                });
+
+            </script>*@
+    @RenderSection("scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            //$("#spinner").hide();
+            $("#overlay").hide();
+            $("body").removeClass("noscroll");
+        });
+    </script>
+</body>
+</html>

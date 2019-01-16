@@ -1,0 +1,20 @@
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Diagnostics.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Diagnostics.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\bin\Debug\log4net.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Core.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Core.pdb
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\bin\Debug\log4net.xml
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.csprojResolveAssemblyReference.cache
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.csproj.CoreCompileInputs.cache
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.dll
+C:\Users\Ruying Ng\Desktop\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.pdb
+C:\Project\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Diagnostics.dll
+C:\Project\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Diagnostics.pdb
+C:\Project\Talent Competition\Talent.Diagnostics\bin\Debug\log4net.dll
+C:\Project\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Core.dll
+C:\Project\Talent Competition\Talent.Diagnostics\bin\Debug\Talent.Core.pdb
+C:\Project\Talent Competition\Talent.Diagnostics\bin\Debug\log4net.xml
+C:\Project\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.csprojResolveAssemblyReference.cache
+C:\Project\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.csproj.CoreCompileInputs.cache
+C:\Project\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.dll
+C:\Project\Talent Competition\Talent.Diagnostics\obj\Debug\Talent.Diagnostics.pdb

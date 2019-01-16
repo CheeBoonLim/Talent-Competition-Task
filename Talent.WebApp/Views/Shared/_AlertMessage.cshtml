@@ -1,0 +1,42 @@
+﻿@{
+
+    if (TempData["SaveMsg"] != null)
+    {
+        var objectArray = (object[])TempData["SaveMsg"];
+        if ((bool)objectArray[0])
+        {
+            <div class="ui success message">
+                <i class="close icon"></i>
+                <div class="header">
+                    @objectArray[1]
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="ui error message">
+                <i class="close icon"></i>
+                <div class="header">
+                    @objectArray[1]
+                </div>
+            </div>
+        }
+
+    }
+}
+<script>
+
+    $('.message .close').on('click', function () {
+      $(this).closest('.message').transition('fade');
+    });
+
+    //$.uiAlert({
+    //    textHead: 'You may now log-in with the username you have chosen', // header
+    //    text: 'You may now log-in with the username you have chosen', // Text
+    //    bgcolor: '#19c3aa', // background-color
+    //    textcolor: '#fff', // color
+    //    position: 'top-center',// position . top And bottom ||  left / center / right
+    //    icon: 'checkmark box', // icon in semantic-UI
+    //    time: 3, // time
+    //})
+</script>

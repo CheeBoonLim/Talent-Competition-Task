@@ -1,0 +1,21 @@
+﻿@using Mars.Service.Paging
+
+@if (Model is IPagedList)
+{
+    var pager = Model as IPagedList;
+    var pageCount = (int)Math.Ceiling(pager.TotalCount / (double)pager.PageSize);
+
+    if (pageCount > 1)
+    {
+        <div class="ui pagination mini menu">
+
+            @for (int i = 0; i < pageCount; i++)
+            {
+                var currentPage = i + 1;
+
+                <a href="#" data-page="@currentPage" class="item page-number @(pager.PageIndex == currentPage ? "active" : "")"> @currentPage</a>
+            }
+
+        </div>
+    }
+}

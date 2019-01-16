@@ -1,0 +1,75 @@
+﻿@model Mars.Service.Models.ContactModel
+@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="ui container">
+    <div class="ui text">
+        For any enquiries, please contact us at <a href="mailto:support@skin.example">support@skin.example</a>
+        @Html.ValidationSummary(true)
+    </div>
+    <p class="cat-send-contact-msg">@ViewBag.Message</p>
+    <div class="ui hidden divider"></div>
+
+    @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { id = "contactForm", @class = "ui form" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="field">
+            <label>Name</label>
+            <div class="four fields">
+                <div class="field">
+                    <input type="text" name="FirstName" placeholder="First Name" value="@Model.FirstName">
+                </div>
+                <div class="field">
+                    <input type="text" name="LastName" placeholder="Last Name" value="@Model.LastName">
+                </div>
+            </div>
+        </div>
+        <div class="four fields">
+            <div class="field">
+                <label for="Email">Email Address</label>
+                <input type="email" name="Email" placeholder="Email Address" value="@Model.Email">
+            </div>
+            <div class="field">
+                <label for="MobilePhone">Mobile Phone</label>
+                <input placeholder="Phone number" name="MobilePhone" type="number" value="@Model.MobilePhone">
+            </div>
+        </div>
+        <div class="field">
+            <label for="Subject">Subject</label>
+            <div class="field">
+                <input type="text" name="Subject" placeholder="Subject">
+            </div>
+        </div>
+        <div class="field">
+            <label for="Message">Message</label>
+            <textarea name="Message"></textarea>
+        </div>
+        <div class="field">
+            <div class="field">
+                <div id="skin-recaptcha-error"></div>
+                <div class="g-recaptcha" data-theme="light" data-sitekey="@Model.RecaptchaSiteKey" style="transform:scale(0.90);-webkit-transform:scale(0.90);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+            </div>
+        </div>
+        <div class="ui submit button primary" id="submit-btn">Submit</div>
+    }
+
+</div>
+
+@section scripts
+{
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="~/Scripts/Views/home.contact.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/Views/recaptcha.validation.js"></script>
+}
+
+@section styles
+{
+    <style>
+        .cat-send-contact-msg {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+}

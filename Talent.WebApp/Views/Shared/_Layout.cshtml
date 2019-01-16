@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @Html.Partial("_Head")
+    @RenderSection("styles", required: false)
+
+</head>
+<body class="noscroll" style="padding-top:0;padding-bottom:20px">
+    <div>
+        @RenderSection("masthead", required: false)
+
+        <div class="">
+            @RenderBody()
+
+            @Html.Partial("_Footer")
+        </div>
+    </div>
+    @Bundles.RenderScripts()
+    @RenderSection("scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            //$("#spinner").hide();
+            $("#overlay").hide();
+            $("body").removeClass("noscroll");
+        });
+    </script>
+</body>
+</html>

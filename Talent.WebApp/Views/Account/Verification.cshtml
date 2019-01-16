@@ -1,0 +1,221 @@
+﻿@using Talent.Core;
+@model Talent.WebApp.Models.Account.UserProfileModel
+@{
+    ViewBag.Title = "Verification Level";
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
+}
+
+@{
+    var docTypes = new[]
+    {
+new { DocType = DocumentType.BankStatement, Title = "Bank Statement" },
+new { DocType = DocumentType.IssuedID, Title = "Government Issued ID" },
+new { DocType = DocumentType.AddressProof, Title = "Proof of Address" },
+new { DocType = DocumentType.SignedSelfie, Title = "Signed Selfie" },
+};
+}
+<div class="ui container">
+    <div class="ui stackable grid form">
+        <div class="column" id="customer-document">
+            @Html.Partial("_DocumentProfile", Model)
+        </div>
+    </div>
+</div>
+
+<div class="ui tiny modal">
+    <i class="close icon"></i>
+    <div class="header">
+        Please select the file to upload
+    </div>
+    <div class="content">
+        <label id="validationError" class="skin-error-msg"></label>
+        <div>
+            @using (Html.BeginForm("MyProfile", "Account", null, FormMethod.Post, new { enctype = "multipart/form-data", id = "uploadForm", @class = "" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary()
+                <input type="file" id="dataFile" name="fileName" data-val="true" data-val-required="File is required" />
+            }
+        </div>
+    </div>
+    <div class="actions">
+        <div class="ui black deny button">
+            Cancel
+        </div>
+        <div class="ui green right labeled icon approve button">
+            Upload
+            <i class="checkmark icon"></i>
+        </div>
+    </div>
+</div>
+
+@section scriptsSub
+{
+    <script src="~/Scripts/Views/user.profile.js"></script>
+
+    <script>
+        $(function () {
+
+            var fileExtentions = @Html.Raw(Json.Encode(ViewBag.FileExtentions));
+
+            $('.ui.accordion').accordion();
+
+        @foreach (var docType in docTypes)
+        {
+            <text>
+
+            $(document).on("click", "#upload-@docType.DocType.ToString()", function () {
+
+                $("#uploadForm").attr("action", "/Account/UploadFile?documentType=" + @((int)docType.DocType));
+
+                $('.ui.tiny.modal').modal({
+                    closable: true,
+                    onDeny: function () {
+                                return true;
+                            },
+                    onApprove: function () {
+                                    return onApproveClick();
+                                }
+                }).modal('show');
+
+                return false;
+            });
+
+            </text>
+        }
+
+            $('#dataFile').on('change', valiadteForm);
+
+            function onApproveClick() {
+
+                if (!valiadteForm()) return false;
+                $("#uploadForm").submit();
+                return true;
+            }
+
+            function valiadteForm() {
+
+            var fileName = $('#dataFile')[0].files[0];
+            if (fileName == null) {
+                $("#validationError").html('Please select a file');
+                return false;
+            }
+
+            if (fileName.name == null || fileName.name.trim() == "") {
+                $("#dataFile").css("border-color", "#aa2d2d");
+                $("#dataFile").focus();
+                $("#validationError").html('This field is required');
+                return false;
+            }
+
+            var extension = "." + fileName.name.split('.').pop().toLowerCase();
+            if ($.inArray(extension, fileExtentions) == -1) {
+
+                $("#validationError").html("Please select a " + fileExtentions.join(" ") + " file.");
+                return false;
+            }
+
+            $("#validationError").html('');
+
+            return true;
+        }
+        });
+
+        // TODO: move to library
+        /// For updating document status
+
+        $(function () {
+
+            var approvedMessage = "The document has been approved";
+            var notApprovedMessage = "The document has not been approved";
+            var rejectedMessage = "The document has been rejected";
+            var notRejectedMessage = "The document has not been rejected";
+            var approvedStatus = 2;
+            var rejectedStatus = 3;
+
+            $(document).on("click", ".skin-approve-btn", function (e) {
+                e.preventDefault();
+                var id = $(this).data("id");
+                updateDocumentStatus(id, approvedStatus, approvedMessage, notApprovedMessage);
+            });
+
+            $(document).on("click", ".skin-reject-btn", function (e) {
+                e.preventDefault();
+                var id = $(this).data("id");
+                updateDocumentStatus(id, rejectedStatus, rejectedMessage, notRejectedMessage);
+            });
+
+            function updateDocumentStatus(id, status, successMessage, failMessage) {
+                $.ajax({
+                    url: '/Admin/UpdateDocumentStatus',
+                    type: 'POST',
+                    data: { id: id, status: status },
+                    success: function (data) {
+                        if (data.id > 0) {
+                            getDocument(data.id, successMessage, data.level);
+                        }
+                        else {
+                            $(".skin-document-status").html(failMessage);
+                            $(".skin-document-status").css("color", "red");
+                            setTimeout(clearMessage, 7000);
+                        }
+                    }
+                });
+            }
+
+            function getDocument(id, msgAfterLoaded, level) {
+                var url = '/Account/GetDocumentProfile/' + id;
+                $.get(url, function (result) {
+                    $('#customer-document').html(result);
+                    $('.ui.accordion').accordion();
+                    $(".skin-document-status").html(msgAfterLoaded);
+                    $(".skin-document-status").css("color", "green");
+                });
+            }
+
+            function clearMessage() {
+                $(".skin-document-status").html("&nbsp;");
+            }
+
+        });
+
+    </script>
+}
+
+@section stylesSub
+{
+    <style>
+        .skin-error-msg, .skin-verified-msg {
+            color: red;
+        }
+
+        #skin-devider-space {
+            margin: 5px;
+        }
+
+        .skin-document-status {
+            color: green;
+            text-align: left;
+            padding: 10px;
+        }
+
+        #skin-document-header {
+            margin-bottom: 0px !important;
+        }
+
+        #skin-profile-header {
+            padding-bottom: 0px !important;
+        }
+
+        .skin-update-profile-status {
+            text-align: center;
+            color: green;
+            font-weight: bold;
+        }
+
+        .skin-sms-verify-msg {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+}
