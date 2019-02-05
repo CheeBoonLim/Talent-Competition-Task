@@ -17,7 +17,7 @@ React coding examples in ReactExamples.zip:
 *ReactTimelinePassArray.html : Passing an array of javascript objects example
 
 ### Do’s and don’ts
-See the [coding guidelines](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/coding-guidelines)  
+See the [coding guidelines](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/coding-guidelines) and [FAQ](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/faqs)  
 Please try not to add styles inside the jsx file. Instead, please add your styles to TalentTheme.css.  
 Please use ES6, jsx, use state  
 Limit your use of javascript or jQuery - jQuery is required for AJAX, but very little else.  
@@ -37,13 +37,20 @@ Install npm util packages:
 `webpack -version`
 
 ### Launch Talent project
-[Check the wiki](http://git.mvp.studio/talent-competition/talent-competition/wikis/Starting-the-project) for more details.
+[Check the wiki](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/Starting-the-project) for more details.
 * Get the latest source via Source Control Explorer
 * Run webpack:
 `cd C:\Talent\Talent\Talent.WebApp\Scripts\react`
 `npm run build`
 * Launch Talent.WebApp project in Visual Studio. Register an account using your email address and log in.
 
+### Project Structure  
+ - Web Application:
+    - `Talent.WebApp` : All frontend files are located here
+ - Microservices:
+    - `Talent.Services.Identity` : backend functions related to Login/Logout
+    - `Talent.Services.Profile` : backend functions related to Profile
+    - `Talent.Services.Talent` : backend functions related to Talent Matching, Jobs
 
 ### Summary for add a new component: (detailed steps can be found below)
 * Create cshtml file, .jsx files, .js file 
