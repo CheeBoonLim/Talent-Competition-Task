@@ -45,6 +45,7 @@ Install npm util packages:
 * Launch Talent.WebApp project in Visual Studio. Register an account using your email address and log in.
 
 ### Project Structure  
+[Check the wiki](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/project-structure) for more details.
  - Web Application:
     - `Talent.WebApp` : All frontend files are located here
  - Microservices:
