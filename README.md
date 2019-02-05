@@ -2,7 +2,7 @@
 
 This project will help interns at MVP Studio to understand how ReactJs, C# Web Api, MongoDb is used in Talent Code Architecture. 
 
-Please follow below instruction to understand how to get started. If you have any questions, please check if it's asked on QuestionHub or raise the question their to get support. 
+Please follow the instructions below to understand how to get started. If you have any questions, please check if it's asked on QuestionHub or raise the question there to get support. 
 
 ### React tutorials/resources
 * https://reactjs.org/docs/hello-world.html
@@ -52,65 +52,6 @@ Install npm util packages:
     - `Talent.Services.Profile` : backend functions related to Profile
     - `Talent.Services.Talent` : backend functions related to Talent Matching, Jobs
 
-### Summary for add a new component: (detailed steps can be found below)
-* Create cshtml file, .jsx files, .js file 
-* Create a new entry in the webpack.config.js
-* Run `npm run build` command in cmd 
-(If webpack is already running, stop it and rerun the command. 
-Or else, it would not read the new entry in the webpack.config.js and will not generate the bundle.)
-* In the html page, add a link to the newly generated bundle
-
-### Create cshtml page (e.g. under Mars.WebApp\Views\Home) and create a div with an id.
-This Id will be used to select the element to render the main component.
-```javascript
-@{
-	ViewBag.Title = "Search";
-	Layout = "~/Views/Shared/_LayoutSearch.cshtml";
- }
-<div id="service-search-section"></div>
-```
-
-### Create jsx components (under 'react/ReactScripts' folder)
-* Create a new folder and add container (.jsx files) & components files (.jsx files) inside
-  in the container file, import the required components.
-
-
-### Create .js file (under to import jsx files and render components to html file)
-* searchResult.bundle will be created under the /Scripts/react/dist folder when you save your code
-* .js file Sample:
-    ```javascript
-    import React from "react";
-    import ReactDOM from 'react-dom';
-    import SearchResult from './Search/SearchResult.jsx';
-
-    ReactDOM.render(
-        <SearchResult />,
-        document.getElementById('service-search-section')
-    )
-    ```
-
-* Add a new entry in the webpack.config.js file
-    ```javascript
-         entry: {
-    	   accountProfile: './ReactScripts/AccountProfile.js',
-    	   homePage: './ReactScripts/Home.js',
-    	   searchResult: './ReactScripts/SearchResult.js'
-	},
-    ```
-
-* Run webpack:** `npm run build`
-(If webpack is already running, stop it and rerun the command.)
-
-* Add link to auto-generated bundle in the html page.*
-    ```javascript
-    @{
-        ViewBag.Title = "Search";
-	Layout = "~/Views/Shared/_LayoutSearch.cshtml";
-    }
-    <div id="service-search-section"></div>
-    <script src="~/Scripts/react/dist/searchResult.bundle.js"></script>
-    ```
-
 ### React tips
 * Common coding mistakes using jsx
 * Class names: class (html) => className (jsx), tabindex (html) => tabIndex (jsx)
@@ -118,3 +59,18 @@ This Id will be used to select the element to render the main component.
 * Jsx Closing tags differ from html tags, you must have a closing tag for images and inputs: `<img></img>, <input</input>`
 * Forgetting to turn on webpack : `npm run build`
 * Forgetting to clear the cache
+
+
+## Competition task
+
+[Click here](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/competition-task) for more details.
+
+* Task 1 : Employer profile page
+  * Add last name to the primary contact details
+  * Allow users to edit company contact details by clicking on the edit button
+  * Display the user's full name on primary contact details (for read only display)
+
+* Task 2 : Manage Job page
+  * Display jobs as a list of cards
+  * Bonus/Optional: Update a job, Close a job
+
