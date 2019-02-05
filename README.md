@@ -17,6 +17,7 @@ React coding examples in ReactExamples.zip:
 *ReactTimelinePassArray.html : Passing an array of javascript objects example
 
 ### Do’s and don’ts
+See the [coding guidelines](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/coding-guidelines)
 Please try not to add styles inside the jsx file. Instead, please add your styles to TalentTheme.css.
 Please use ES6, jsx, use state
 Try not to use javascript or jQuery
