@@ -36,24 +36,13 @@ Install npm util packages:
 `webpack -version`
 
 ### Launch Talent project
+[Check the wiki](http://git.mvp.studio/talent-competition/talent-competition/wikis/Starting-the-project) for more details.
 * Get the latest source via Source Control Explorer
-* Right click on projects
-* You must run webpack so that bundles can be created automatically. Components will not render correctly if webpack is not running in the background.
 * Run webpack:
 `cd C:\Talent\Talent\Talent.WebApp\Scripts\react`
 `npm run build`
-* If prompt appears for “Do you want to install `webpack-cli (yes/no) Type ‘yes’`
-(Note: Webpack will automatically watch files and will automatically create/modify bundles whenever you save in visual studio.)
 * Launch Talent.WebApp project in Visual Studio. Register an account using your email address and log in.
-Optional: Create a batch file to turn on webpack 
-* You can create a batch file to run cmd commands instead of typing them manually. All you have to do is click on the .bat file.
-* Create a batch file for webpack
-* File name: Webpack.bat
-* Content:   `cd C:\Talent\Talent\Talent.WebApp\Scripts\react`
-		    `npm run build`
-* If you run the project and all you get is a white page (with no errors when you inspect the page), you probably have to reinstall Microsoft Visual Studio Community 2017.
 
-* Steps to add a new component (If needed)
 
 ### Summary for add a new component: (detailed steps can be found below)
 * Create cshtml file, .jsx files, .js file 
