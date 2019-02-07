@@ -61,6 +61,8 @@ Install npm util packages:
 * Forgetting to turn on webpack : `npm run build`
 * Forgetting to clear the cache
 
+### How to connect to the database
+[Click here](http://git.mvp.studio/talent-competition/talent-competition/wikis/guides/mongo-db) for more details.
 
 ## Competition task
 
