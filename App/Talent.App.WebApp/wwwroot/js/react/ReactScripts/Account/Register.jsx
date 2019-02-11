@@ -55,7 +55,7 @@ export default class Register extends React.Component {
             success: function (response) {
                 if (response.isSuccess) {
                     //Cookies.set('talentAuthToken', response.token.token);
-                    TalentUtil.notification.show("Registration Successfull please Verify your email", "success", null, null);
+                    TalentUtil.notification.show("Registration is successfull", "success", null, null);
                     self.setState({ isLoading: false });
                     this.props.closeModal();
                     //window.location = userNavigation(response.token.userRole);
