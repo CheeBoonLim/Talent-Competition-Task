@@ -76,4 +76,9 @@ Install npm util packages:
 * Task 2 : Manage Job page
   * Display jobs as a list of cards
   * Bonus/Optional: Update a job, Close a job
+* Submitting tasks
+  * Please submit tasks the same way you did for Onboarding:
+  * Upload code to your personal GitHub account
+  * Deploy a copy to Azure
+  * Notify your mentor using the industryconnect.io internship portal
 
