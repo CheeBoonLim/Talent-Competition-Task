@@ -1,0 +1,14 @@
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\appsettings.Development.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\appsettings.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\bundleconfig.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\Talent.App.WebApp.deps.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\Talent.App.WebApp.runtimeconfig.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\Talent.App.WebApp.runtimeconfig.dev.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\Talent.App.WebApp.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\bin\Release\netcoreapp2.0\Talent.App.WebApp.pdb
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\Talent.App.WebApp.csprojAssemblyReference.cache
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\Talent.App.WebApp.AssemblyInfoInputs.cache
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\Talent.App.WebApp.AssemblyInfo.cs
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\Talent.App.WebApp.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\Talent.App.WebApp.pdb

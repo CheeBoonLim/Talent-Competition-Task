@@ -37,3 +37,21 @@ C:\Talent-Competition\Talent\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Ta
 C:\Talent-Competition\Talent\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.AssemblyInfo.cs
 C:\Talent-Competition\Talent\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.dll
 C:\Talent-Competition\Talent\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.pdb
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.docker.Development.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.docker.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.deps.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.runtimeconfig.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.runtimeconfig.dev.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.pdb
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.csprojAssemblyReference.cache
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.AssemblyInfoInputs.cache
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.AssemblyInfo.cs
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.csproj.CopyComplete
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.pdb

@@ -10,5 +10,7 @@
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
+    <ShowAllFiles>false</ShowAllFiles>
+    <NameOfLastUsedPublishProfile>TalentAppCBLIM - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

@@ -1,0 +1,26 @@
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Talent.App.WebApp
+--content-root=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\About.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\Contact.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\EmployerFeed.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\EmployerJobPost.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\EmployerProfile.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\Index.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\ManageJobs.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\ResetPassword.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\TalentDetail.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\TalentFeed.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\TalentMatching.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\TalentProfile.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\TalentWatchlist.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\UserAccountSetting.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Home\UserSettings.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Shared\Error.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Shared\_Footer.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Shared\_Head.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Shared\_Layout.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\_ViewImports.cshtml
+--file=C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\App\Talent.App.WebApp\Views\_ViewStart.cshtml

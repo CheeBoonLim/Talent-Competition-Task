@@ -25,3 +25,11 @@ C:\Talent-Competition\Talent\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common
 C:\Talent-Competition\Talent\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.AssemblyInfo.cs
 C:\Talent-Competition\Talent\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.dll
 C:\Talent-Competition\Talent\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\bin\Debug\netcoreapp2.0\Talent.Common.deps.json
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.csprojAssemblyReference.cache
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.AssemblyInfoInputs.cache
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.AssemblyInfo.cs
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\Pue Ling\Desktop\Industry Connect\Internship\Technical Preparation\Competition Task\CompetitionTask\Talent.Common\obj\Debug\netcoreapp2.0\Talent.Common.pdb
